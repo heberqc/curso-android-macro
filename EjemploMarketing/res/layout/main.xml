@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  android:id="@+id/LL01" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  android:orientation="vertical"
+  android:background="#000000"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+  
+            <com.google.ads.AdView android:id="@+id/ad"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           ads:adSize="BANNER"
+                           ads:adUnitId="a15111d27f1f49e"
+                           ads:testDevices="TEST_EMULATOR,TEST_DEVICE_ID_GOES_HERE"
+                           ads:loadAdOnCreate="true"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="El Diario el Comercio"
+        android:textSize="30px"/>
+    
+	<ListView
+	    android:id="@+id/lst"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="5dip" >
+
+	</ListView>	
+
+</LinearLayout>
+ 

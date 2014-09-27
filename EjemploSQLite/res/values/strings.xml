@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Form!</string>
+    <string name="app_name">Ejemplo SQLite</string>
+    <string name="mensaje">Nuevo Cliente</string>
+    <string name="nom">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="tel">Telefono</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Agregar</string>
+    <string name="titulo">Resultado</string>
+    <string name="mensaje2">Exito</string>
+
+</resources>
+
+
+    
